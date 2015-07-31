@@ -30,6 +30,8 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key></key>
+	<string></string>
 	<key>UIStatusBarTintParameters</key>
 	<dict>
 		<key>UINavigationBar</key>
@@ -45,6 +47,21 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>FacebookAppID</key>
+	<string>1023271821038669</string>
+	<key>FacebookDisplayName</key>
+	<string>Festival App</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string></string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb1023271821038669</string>
+			</array>
+		</dict>
 	</array>
 </dict>
 </plist>

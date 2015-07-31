@@ -8,12 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		B545888F1B663B1A0068D11C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B545888E1B663B1A0068D11C /* AppDelegate.swift */; };
-		B54588911B663B1A0068D11C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54588901B663B1A0068D11C /* FirstViewController.swift */; };
-		B54588931B663B1A0068D11C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54588921B663B1A0068D11C /* SecondViewController.swift */; };
 		B54588961B663B1A0068D11C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54588941B663B1A0068D11C /* Main.storyboard */; };
 		B54588981B663B1A0068D11C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54588971B663B1A0068D11C /* Images.xcassets */; };
 		B545889B1B663B1A0068D11C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B54588991B663B1A0068D11C /* LaunchScreen.xib */; };
 		B54588A71B663B1A0068D11C /* FestivalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54588A61B663B1A0068D11C /* FestivalAppTests.swift */; };
+		B54878111B67842A00500830 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B548780B1B67842A00500830 /* Bolts.framework */; };
+		B54878121B67842A00500830 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B548780C1B67842A00500830 /* Parse.framework */; };
+		B54878131B67842A00500830 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B548780D1B67842A00500830 /* ParseCrashReporting.framework */; };
+		B54878141B67842A00500830 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B548780E1B67842A00500830 /* ParseFacebookUtils.framework */; };
+		B54878151B67842A00500830 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B548780F1B67842A00500830 /* ParseFacebookUtilsV4.framework */; };
+		B54878161B67842A00500830 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54878101B67842A00500830 /* ParseUI.framework */; };
+		B54878181B67845200500830 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54878171B67845200500830 /* AudioToolbox.framework */; };
+		B548781A1B67845900500830 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54878191B67845900500830 /* CFNetwork.framework */; };
+		B548781C1B67846000500830 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B548781B1B67846000500830 /* CoreGraphics.framework */; };
+		B548781E1B67846600500830 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B548781D1B67846600500830 /* CoreLocation.framework */; };
+		B54878201B67846F00500830 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B548781F1B67846F00500830 /* QuartzCore.framework */; };
+		B54878221B67847C00500830 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54878211B67847C00500830 /* Security.framework */; };
+		B54878241B67848700500830 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54878231B67848700500830 /* StoreKit.framework */; };
+		B54878261B67849500500830 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54878251B67849500500830 /* SystemConfiguration.framework */; };
+		B54878281B67849F00500830 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B54878271B67849F00500830 /* libz.dylib */; };
+		B548782A1B6784AA00500830 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B54878291B6784AA00500830 /* libsqlite3.dylib */; };
+		B55D02E11B68D04E008EE757 /* Festival.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D02E01B68D04E008EE757 /* Festival.swift */; };
+		B55D02E31B690CCF008EE757 /* LineUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D02E21B690CCF008EE757 /* LineUpTableViewController.swift */; };
+		B55D02E51B691C11008EE757 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D02E41B691C11008EE757 /* ArtistTableViewCell.swift */; };
+		B55D02E71B6A1C17008EE757 /* ArtistInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D02E61B6A1C17008EE757 /* ArtistInfoViewController.swift */; };
+		B55D02E91B6A3531008EE757 /* MatchMakingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D02E81B6A3531008EE757 /* MatchMakingTableViewController.swift */; };
+		B55D02EB1B6A3776008EE757 /* MatchmakingHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B55D02EA1B6A3776008EE757 /* MatchmakingHeaderView.xib */; };
+		B55D02ED1B6A3814008EE757 /* MatchmakingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D02EC1B6A3814008EE757 /* MatchmakingHeaderView.swift */; };
+		B57DBA641B665A01001D0529 /* Bobbleboddy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B57DBA611B665A01001D0529 /* Bobbleboddy.ttf */; };
+		B57DBA651B665A01001D0529 /* Bobbleboddy_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B57DBA621B665A01001D0529 /* Bobbleboddy_light.ttf */; };
+		B57DBA661B665A01001D0529 /* README_EULA.html in Resources */ = {isa = PBXBuildFile; fileRef = B57DBA631B665A01001D0529 /* README_EULA.html */; };
+		B57DBD881B666350001D0529 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57DBD871B666350001D0529 /* LoginViewController.swift */; };
+		B57DBD8A1B666B44001D0529 /* FestivalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57DBD891B666B44001D0529 /* FestivalsTableViewController.swift */; };
+		B58BF7681B67902C0014F494 /* FestivalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BF7671B67902C0014F494 /* FestivalTableViewCell.swift */; };
+		B58BF76A1B6793290014F494 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BF7691B6793290014F494 /* InfoViewController.swift */; };
+		B58BF76C1B67A75F0014F494 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58BF76B1B67A75F0014F494 /* MapKit.framework */; };
+		B5E1FA991B6B8AA900AAB1EB /* TransportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E1FA981B6B8AA900AAB1EB /* TransportTableViewController.swift */; };
+		D24A47C6EE5704303E83EFFD /* Pods_FestivalApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC69482217216F69CBDDF940 /* Pods_FestivalApp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +58,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C83F65BCA6EF396ABE96487 /* Pods-FestivalApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FestivalApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FestivalApp/Pods-FestivalApp.debug.xcconfig"; sourceTree = "<group>"; };
+		365BB20F8F6DD3478F317E85 /* Pods-FestivalApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FestivalApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FestivalApp/Pods-FestivalApp.release.xcconfig"; sourceTree = "<group>"; };
 		B54588891B663B1A0068D11C /* FestivalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FestivalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B545888D1B663B1A0068D11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B545888E1B663B1A0068D11C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B54588901B663B1A0068D11C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		B54588921B663B1A0068D11C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B54588951B663B1A0068D11C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B54588971B663B1A0068D11C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B545889A1B663B1A0068D11C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B54588A01B663B1A0068D11C /* FestivalAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FestivalAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54588A51B663B1A0068D11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B54588A61B663B1A0068D11C /* FestivalAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalAppTests.swift; sourceTree = "<group>"; };
+		B548780B1B67842A00500830 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		B548780C1B67842A00500830 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		B548780D1B67842A00500830 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		B548780E1B67842A00500830 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		B548780F1B67842A00500830 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		B54878101B67842A00500830 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		B54878171B67845200500830 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B54878191B67845900500830 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B548781B1B67846000500830 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B548781D1B67846600500830 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B548781F1B67846F00500830 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B54878211B67847C00500830 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B54878231B67848700500830 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B54878251B67849500500830 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B54878271B67849F00500830 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B54878291B6784AA00500830 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B55D02E01B68D04E008EE757 /* Festival.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Festival.swift; sourceTree = "<group>"; };
+		B55D02E21B690CCF008EE757 /* LineUpTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineUpTableViewController.swift; sourceTree = "<group>"; };
+		B55D02E41B691C11008EE757 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
+		B55D02E61B6A1C17008EE757 /* ArtistInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistInfoViewController.swift; sourceTree = "<group>"; };
+		B55D02E81B6A3531008EE757 /* MatchMakingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchMakingTableViewController.swift; sourceTree = "<group>"; };
+		B55D02EA1B6A3776008EE757 /* MatchmakingHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MatchmakingHeaderView.xib; sourceTree = "<group>"; };
+		B55D02EC1B6A3814008EE757 /* MatchmakingHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchmakingHeaderView.swift; sourceTree = "<group>"; };
+		B57DBA611B665A01001D0529 /* Bobbleboddy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bobbleboddy.ttf; sourceTree = "<group>"; };
+		B57DBA621B665A01001D0529 /* Bobbleboddy_light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bobbleboddy_light.ttf; sourceTree = "<group>"; };
+		B57DBA631B665A01001D0529 /* README_EULA.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = README_EULA.html; sourceTree = "<group>"; };
+		B57DBD871B666350001D0529 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B57DBD891B666B44001D0529 /* FestivalsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FestivalsTableViewController.swift; sourceTree = "<group>"; };
+		B58BF7671B67902C0014F494 /* FestivalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FestivalTableViewCell.swift; sourceTree = "<group>"; };
+		B58BF7691B6793290014F494 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		B58BF76B1B67A75F0014F494 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B5E1FA981B6B8AA900AAB1EB /* TransportTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportTableViewController.swift; sourceTree = "<group>"; };
+		FC69482217216F69CBDDF940 /* Pods_FestivalApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FestivalApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +109,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58BF76C1B67A75F0014F494 /* MapKit.framework in Frameworks */,
+				B548782A1B6784AA00500830 /* libsqlite3.dylib in Frameworks */,
+				B54878281B67849F00500830 /* libz.dylib in Frameworks */,
+				B54878261B67849500500830 /* SystemConfiguration.framework in Frameworks */,
+				B54878241B67848700500830 /* StoreKit.framework in Frameworks */,
+				B54878221B67847C00500830 /* Security.framework in Frameworks */,
+				B54878201B67846F00500830 /* QuartzCore.framework in Frameworks */,
+				B548781E1B67846600500830 /* CoreLocation.framework in Frameworks */,
+				B548781C1B67846000500830 /* CoreGraphics.framework in Frameworks */,
+				B548781A1B67845900500830 /* CFNetwork.framework in Frameworks */,
+				B54878181B67845200500830 /* AudioToolbox.framework in Frameworks */,
+				B54878161B67842A00500830 /* ParseUI.framework in Frameworks */,
+				B54878121B67842A00500830 /* Parse.framework in Frameworks */,
+				B54878131B67842A00500830 /* ParseCrashReporting.framework in Frameworks */,
+				B54878141B67842A00500830 /* ParseFacebookUtils.framework in Frameworks */,
+				B54878111B67842A00500830 /* Bolts.framework in Frameworks */,
+				B54878151B67842A00500830 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				D24A47C6EE5704303E83EFFD /* Pods_FestivalApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,9 +143,11 @@
 		B54588801B663B1A0068D11C = {
 			isa = PBXGroup;
 			children = (
+				B548782B1B6784BC00500830 /* Frameworks */,
 				B545888B1B663B1A0068D11C /* FestivalApp */,
 				B54588A31B663B1A0068D11C /* FestivalAppTests */,
 				B545888A1B663B1A0068D11C /* Products */,
+				D06725E02D5F32DD09470C2A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,8 +164,18 @@
 			isa = PBXGroup;
 			children = (
 				B545888E1B663B1A0068D11C /* AppDelegate.swift */,
-				B54588901B663B1A0068D11C /* FirstViewController.swift */,
-				B54588921B663B1A0068D11C /* SecondViewController.swift */,
+				B57DBD891B666B44001D0529 /* FestivalsTableViewController.swift */,
+				B58BF7691B6793290014F494 /* InfoViewController.swift */,
+				B55D02E01B68D04E008EE757 /* Festival.swift */,
+				B55D02E41B691C11008EE757 /* ArtistTableViewCell.swift */,
+				B55D02E61B6A1C17008EE757 /* ArtistInfoViewController.swift */,
+				B55D02E81B6A3531008EE757 /* MatchMakingTableViewController.swift */,
+				B5E1FA981B6B8AA900AAB1EB /* TransportTableViewController.swift */,
+				B55D02E21B690CCF008EE757 /* LineUpTableViewController.swift */,
+				B55D02EC1B6A3814008EE757 /* MatchmakingHeaderView.swift */,
+				B55D02EA1B6A3776008EE757 /* MatchmakingHeaderView.xib */,
+				B58BF7671B67902C0014F494 /* FestivalTableViewCell.swift */,
+				B57DBD871B666350001D0529 /* LoginViewController.swift */,
 				B54588941B663B1A0068D11C /* Main.storyboard */,
 				B54588971B663B1A0068D11C /* Images.xcassets */,
 				B54588991B663B1A0068D11C /* LaunchScreen.xib */,
@@ -93,6 +187,7 @@
 		B545888C1B663B1A0068D11C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B57DBA601B665A01001D0529 /* bubbleboddy */,
 				B545888D1B663B1A0068D11C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -115,6 +210,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B548780A1B67842A00500830 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				B548780B1B67842A00500830 /* Bolts.framework */,
+				B548780C1B67842A00500830 /* Parse.framework */,
+				B548780D1B67842A00500830 /* ParseCrashReporting.framework */,
+				B548780E1B67842A00500830 /* ParseFacebookUtils.framework */,
+				B548780F1B67842A00500830 /* ParseFacebookUtilsV4.framework */,
+				B54878101B67842A00500830 /* ParseUI.framework */,
+			);
+			name = Parse;
+			path = "parse-library-1.7.5";
+			sourceTree = "<group>";
+		};
+		B548782B1B6784BC00500830 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B58BF76B1B67A75F0014F494 /* MapKit.framework */,
+				B54878291B6784AA00500830 /* libsqlite3.dylib */,
+				B54878271B67849F00500830 /* libz.dylib */,
+				B54878251B67849500500830 /* SystemConfiguration.framework */,
+				B54878231B67848700500830 /* StoreKit.framework */,
+				B54878211B67847C00500830 /* Security.framework */,
+				B548781F1B67846F00500830 /* QuartzCore.framework */,
+				B548781D1B67846600500830 /* CoreLocation.framework */,
+				B548781B1B67846000500830 /* CoreGraphics.framework */,
+				B54878191B67845900500830 /* CFNetwork.framework */,
+				B54878171B67845200500830 /* AudioToolbox.framework */,
+				B548780A1B67842A00500830 /* Parse */,
+				FC69482217216F69CBDDF940 /* Pods_FestivalApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B57DBA601B665A01001D0529 /* bubbleboddy */ = {
+			isa = PBXGroup;
+			children = (
+				B57DBA611B665A01001D0529 /* Bobbleboddy.ttf */,
+				B57DBA621B665A01001D0529 /* Bobbleboddy_light.ttf */,
+				B57DBA631B665A01001D0529 /* README_EULA.html */,
+			);
+			path = bubbleboddy;
+			sourceTree = "<group>";
+		};
+		D06725E02D5F32DD09470C2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C83F65BCA6EF396ABE96487 /* Pods-FestivalApp.debug.xcconfig */,
+				365BB20F8F6DD3478F317E85 /* Pods-FestivalApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +270,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B54588AA1B663B1A0068D11C /* Build configuration list for PBXNativeTarget "FestivalApp" */;
 			buildPhases = (
+				F67695680DE7B2D8CF3711ED /* Check Pods Manifest.lock */,
 				B54588851B663B1A0068D11C /* Sources */,
 				B54588861B663B1A0068D11C /* Frameworks */,
 				B54588871B663B1A0068D11C /* Resources */,
+				D7C26B2EBEC3CE7F7658D856 /* Embed Pods Frameworks */,
+				384FB50A1225AA86D2AE1FB7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,6 +315,7 @@
 				TargetAttributes = {
 					B54588881B663B1A0068D11C = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 39J8Y9X9G7;
 					};
 					B545889F1B663B1A0068D11C = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -198,6 +350,10 @@
 				B54588961B663B1A0068D11C /* Main.storyboard in Resources */,
 				B545889B1B663B1A0068D11C /* LaunchScreen.xib in Resources */,
 				B54588981B663B1A0068D11C /* Images.xcassets in Resources */,
+				B55D02EB1B6A3776008EE757 /* MatchmakingHeaderView.xib in Resources */,
+				B57DBA651B665A01001D0529 /* Bobbleboddy_light.ttf in Resources */,
+				B57DBA641B665A01001D0529 /* Bobbleboddy.ttf in Resources */,
+				B57DBA661B665A01001D0529 /* README_EULA.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,14 +366,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		384FB50A1225AA86D2AE1FB7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FestivalApp/Pods-FestivalApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7C26B2EBEC3CE7F7658D856 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FestivalApp/Pods-FestivalApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F67695680DE7B2D8CF3711ED /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B54588851B663B1A0068D11C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B54588931B663B1A0068D11C /* SecondViewController.swift in Sources */,
+				B57DBD881B666350001D0529 /* LoginViewController.swift in Sources */,
 				B545888F1B663B1A0068D11C /* AppDelegate.swift in Sources */,
-				B54588911B663B1A0068D11C /* FirstViewController.swift in Sources */,
+				B55D02ED1B6A3814008EE757 /* MatchmakingHeaderView.swift in Sources */,
+				B5E1FA991B6B8AA900AAB1EB /* TransportTableViewController.swift in Sources */,
+				B55D02E11B68D04E008EE757 /* Festival.swift in Sources */,
+				B58BF76A1B6793290014F494 /* InfoViewController.swift in Sources */,
+				B55D02E51B691C11008EE757 /* ArtistTableViewCell.swift in Sources */,
+				B58BF7681B67902C0014F494 /* FestivalTableViewCell.swift in Sources */,
+				B57DBD8A1B666B44001D0529 /* FestivalsTableViewController.swift in Sources */,
+				B55D02E91B6A3531008EE757 /* MatchMakingTableViewController.swift in Sources */,
+				B55D02E31B690CCF008EE757 /* LineUpTableViewController.swift in Sources */,
+				B55D02E71B6A1C17008EE757 /* ArtistInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,21 +555,41 @@
 		};
 		B54588AB1B663B1A0068D11C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C83F65BCA6EF396ABE96487 /* Pods-FestivalApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDK",
+					"$(PROJECT_DIR)/FestivalApp/FacebookSDK",
+					"$(PROJECT_DIR)/parse-library-1.7.5",
+				);
 				INFOPLIST_FILE = FestivalApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		B54588AC1B663B1A0068D11C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365BB20F8F6DD3478F317E85 /* Pods-FestivalApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDK",
+					"$(PROJECT_DIR)/FestivalApp/FacebookSDK",
+					"$(PROJECT_DIR)/parse-library-1.7.5",
+				);
 				INFOPLIST_FILE = FestivalApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -413,6 +646,7 @@
 				B54588AC1B663B1A0068D11C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B54588AD1B663B1A0068D11C /* Build configuration list for PBXNativeTarget "FestivalAppTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +655,7 @@
 				B54588AF1B663B1A0068D11C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MatchmakingHeaderView" customModule="FestivalApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Similar Likes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDB-Pe-vUQ">
+                    <rect key="frame" x="47" y="8" width="265" height="28"/>
+                    <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tick Full" translatesAutoresizingMaskIntoConstraints="NO" id="GYN-sl-dwZ">
+                    <rect key="frame" x="15" y="10" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="efi-wU-XiO"/>
+                        <constraint firstAttribute="width" constant="24" id="hVP-uo-PL9"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mDB-Pe-vUQ" secondAttribute="trailing" constant="8" id="1kg-KS-o3h"/>
+                <constraint firstItem="GYN-sl-dwZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="KgP-7b-jLF"/>
+                <constraint firstAttribute="bottom" secondItem="mDB-Pe-vUQ" secondAttribute="bottom" constant="8" id="TS3-hP-yj3"/>
+                <constraint firstItem="GYN-sl-dwZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="XvP-GH-eA1"/>
+                <constraint firstAttribute="bottom" secondItem="GYN-sl-dwZ" secondAttribute="bottom" constant="10" id="meX-Yx-v4S"/>
+                <constraint firstItem="mDB-Pe-vUQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="psU-SR-axi"/>
+                <constraint firstItem="mDB-Pe-vUQ" firstAttribute="leading" secondItem="GYN-sl-dwZ" secondAttribute="trailing" constant="8" id="xdk-7P-fyc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="GYN-sl-dwZ" id="fGj-yM-LOM"/>
+                <outlet property="label" destination="mDB-Pe-vUQ" id="eda-f6-IZS"/>
+            </connections>
+            <point key="canvasLocation" x="245" y="247"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Tick Full" width="24" height="24"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

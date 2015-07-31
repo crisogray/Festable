@@ -7,15 +7,20 @@
 //
 
 import UIKit
+import Parse
+import Bolts
+
+let tint = UIColor(red: 254 / 255, green: 119 / 255, blue: 98 / 255, alpha: 1)
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        window?.tintColor = tint
         // Override point for customization after application launch.
+        Parse.setApplicationId("qu1FDhp6PNvyHhCeXfT1oFF8ARAhGasw4AcVDPXZ", clientKey: "egIRshcXcsADl1YT1O8AoYaIWJ9Ef6eZVZGqiyug")
         return true
     }
 
