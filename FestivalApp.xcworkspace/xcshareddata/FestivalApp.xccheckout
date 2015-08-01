@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>65386EEF-E5B1-4AF6-A732-4820F1BF0397</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FestivalApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7B49EB6F3B67DB9EF855364FCFD4CE5E213A8BD1</key>
+		<string>https://github.com/BCGray00/Festable.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FestivalApp.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7B49EB6F3B67DB9EF855364FCFD4CE5E213A8BD1</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BCGray00/Festable.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7B49EB6F3B67DB9EF855364FCFD4CE5E213A8BD1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7B49EB6F3B67DB9EF855364FCFD4CE5E213A8BD1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FestivalApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
